@@ -1,0 +1,16 @@
+{
+  "name": "ihx-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:parv42069/ihx-bot.git",
+  "author": "parv42069 <109207365+parv42069@users.noreply.github.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "puppeteer": "^19.6.3"
+  },
+  "scripts": {
+    "scrape": "node getDataViaPuppeteer.js",
+    "upload": "node uploadDataViaPuppeteer.js"
+  }
+}
